@@ -1,0 +1,1 @@
+liquibase --changeLogFile=dbchangelog.xml --url=jdbc:postgresql://localhost:5432/postgres --username=postgres --password=password --classpath=postgresql-42.5.2.jar generateChangeLog
