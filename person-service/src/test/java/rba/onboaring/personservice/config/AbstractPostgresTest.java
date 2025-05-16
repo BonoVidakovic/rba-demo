@@ -17,7 +17,7 @@ import rba.onboaring.personservice.PersonServiceApplication;
         webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @ContextConfiguration(initializers = {AbstractCouchbaseTest.PostgresInitializer.class})
 @Testcontainers
-public abstract class AbstractCouchbaseTest {
+public abstract class AbstractPostgresTest {
     static private final String databaseName = "rba-integration-test";
     static private final String username = "user";
     static private final String password = "password";
